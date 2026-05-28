@@ -94,7 +94,7 @@ const projectShowcase = [
     label: 'Project 1',
     title: 'Sign Language Recognition System',
     subtitle: 'Python, OpenCV, Machine Learning',
-    author: 'Shivanshu',
+    author: 'Shivanshu Vats',
     summary:
       'An AI-driven recognition system designed to understand hand gestures and improve sign language communication.',
     stack: ['Python', 'OpenCV', 'Machine Learning', 'Computer Vision', 'Web Interface'],
@@ -112,7 +112,7 @@ const projectShowcase = [
     label: 'Project 2',
     title: 'Sehat Connect - Healthcare AI Chatbot',
     subtitle: 'Python, Llama LLM, NLP',
-    author: 'Shivanshu and Naitik',
+    author: 'Shivanshu Vats and Naitik Tiwari',
     summary:
       'A Smart India Hackathon healthcare assistant focused on structured health guidance with privacy-aware AI responses.',
     stack: ['Python', 'Llama LLM', 'NLP', 'Prompt Engineering', 'Conversational AI'],
@@ -160,7 +160,7 @@ const projectShowcase = [
     label: 'Project 4',
     title: 'StockLite - AI Stock Analysis System',
     subtitle: 'React, Node.js, FastAPI, LLaMA, ChromaDB',
-    author: 'Shivanshu',
+    author: 'Shivanshu Vats',
     summary:
       'An AI-driven stock analysis system that combines technical indicators, real-time news through a RAG pipeline, and LLM-based reasoning to explain what to buy and why.',
     stack: [
@@ -208,7 +208,7 @@ const projectShowcase = [
 
 function Mainpage() {
   const [currentProjectIndex, setCurrentProjectIndex] = useState(0)
-  const [activeProject, setActiveProject] = useState(projectShowcase[0].id)
+  const [activeProject, setActiveProject] = useState(null)
 
   const toggleProject = (projectId) => {
     setActiveProject((currentProject) =>
@@ -248,7 +248,7 @@ function Mainpage() {
             <p className="hero-copy">
               Crafting modern web experiences with AI, creativity and clean code.
             </p>
-            <a className="secondary-button hero-download" href="/cv.pdf" download>
+            <a className="secondary-button hero-download" href="/Shivanshu_Resume.pdf" download>
               Download CV
             </a>
           </div>
@@ -263,8 +263,8 @@ function Mainpage() {
           viewport={{ once: true, amount: 0.35 }}
         >
           <div className="tech-section-header">
-            <span className="card-label">Tech</span>
-            <h2>Core stack in motion</h2>
+            <span className="card-label">Tech Stack</span>
+            {/* <h2>Core stack in motion</h2> */}
           </div>
 
           <div className="tech-marquee">
@@ -297,11 +297,11 @@ function Mainpage() {
           <div className="projects-heading">
             <div>
               <span className="card-label">Projects</span>
-              <h2>Selected work presented with depth and clarity</h2>
+              {/* <h2>Selected work presented with depth and clarity</h2>
               <p>
                 Each card highlights the problem, stack, and key contribution,
                 with a details view for the full project story.
-              </p>
+              </p> */}
             </div>
 
             <div className="project-nav-controls" aria-label="Project navigation">
@@ -444,11 +444,11 @@ function Mainpage() {
                   for GSoC while working on projects involving React, Node.js,
                   AI integrations, and modern UI/UX design.
                 </p>
-                <p>
+                {/* <p>
                   I love building futuristic interfaces, solving complex
                   problems, and creating applications that combine
                   performance, functionality, and great user experience.
-                </p>
+                </p> */}
               </div>
 
               <div className="about-visual">
@@ -468,7 +468,7 @@ function Mainpage() {
             <h2>Let&apos;s connect and build something meaningful.</h2>
             <p>
               I&apos;m open to internships, collaborations, and opportunities where
-              I can contribute as a full stack developer and AI models Developments.
+              I can contribute as a full stack developer.
             </p>
 
             <div className="contact-details">
@@ -479,7 +479,7 @@ function Mainpage() {
                     <path d="M12 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
                   </svg>
                 </span>
-                <span>India</span>
+                <span>Greater Noida,India</span>
               </a>
 
               <a className="contact-item" href="tel:+917479999543">
