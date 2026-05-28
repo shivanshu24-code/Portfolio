@@ -97,12 +97,12 @@ const projectShowcase = [
     author: 'Shivanshu Vats',
     summary:
       'An AI-driven recognition system designed to understand hand gestures and improve sign language communication.',
-    stack: ['Python', 'OpenCV', 'Machine Learning', 'Computer Vision', 'Web Interface'],
+    stack: ['Python', 'OpenCV', 'Machine Learning', 'Yolov11', 'React'],
     details: [
       'Developed an AI-based system to recognize hand gestures for sign language communication.',
       'Implemented image preprocessing and feature extraction using OpenCV.',
       'Trained and evaluated machine learning models for gesture classification.',
-      'Built a web interface for real-time sign recognition.',
+      'Built a web interface using react for real-time sign recognition.',
       'Addressed challenges such as lighting variation and hand orientation.',
     ],
     Github: 'https://github.com/shivanshu24-code/Sign-Language-Detector'
